@@ -10,7 +10,10 @@ body{
     padding: 0;
     margin: 0 auto;
     text-align: center;
+    font-family: sans-serif;
 }
+
+
 
 /* navigation stats here */
 
@@ -20,10 +23,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: fixed;
-    width: 100%;
-    top:0;
-    z-index:100; */
+    font-size: larger;
 
 }
 
@@ -46,7 +46,10 @@ body{
 main .row{
     height:60vh;
     padding-top: 3em;
+    margin-bottom: 1em;
 }
+
+/* //////////////row1  */
 
 .row1{
     background-image:url(./Assets/Images/row1.jpeg) ;
@@ -71,4 +74,127 @@ main .row{
     margin: 0 auto;
     color: #4191f4;
     font-size: 1.5em;
+}
+
+/* /////////////////row2 */
+
+.row2{
+    background-image:url(./Assets/Images/row2.jpg) ;
+    background-size: cover;
+    color:black;
+}
+
+.row2 h2{
+    font-size: 5em;
+    margin: 0;
+}
+
+.row2 h3{
+    font-size: 2.5em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.row2 div{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: 0 auto;
+    color: #4191f4;
+    font-size: 1.5em;
+}
+
+/* ///////////////row3 */
+
+.row3{
+    background-image:url(./Assets/Images/row3.jpg) ;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #f0eef1;
+    color:black;
+}
+
+.row3 h2{
+    font-size: 5em;
+    margin: 0;
+}
+
+.row3 h3{
+    font-size: 2.5em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.row3 h4{
+    color: #aaa9a9;
+}
+
+.row3 div{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: 0 auto;
+    color: #4191f4;
+    font-size: 1.5em;
+}
+
+/* ////////////////row4 */
+
+main .row4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+}
+
+main .row4 a{
+    width: 48.5%;
+    height: 100%;
+    margin: 0 auto;
+    color:black;
+
+}
+
+.row4 h2{
+    font-size: 3em;
+    margin:0;
+    padding:1em 0 0 0
+}
+
+.row4 h3{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin:0.5em 0;
+}
+
+.row4 h4{
+    color: #aaa9a9;
+    margin: 0;
+}
+
+.row4a{
+    height: 100%;
+    background-image:url(./Assets/Images/row4a.jpg) ;
+    background-size: cover;
+    color:black;
+}
+
+.row4a div{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    color: #4191f4;
+    font-size: 1.5em;
+}
+
+.row4b{
+    height: 100%;
+    background-image:url(./Assets/Images/row4b.jpg) ;
+    background-size: cover;
+    color:black;
+}
+
+.row4b div{
+    color: #4191f4;
 }
