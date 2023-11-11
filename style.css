@@ -1,6 +1,6 @@
-*{
+/* *{
     outline: 1px solid teal ;
-}
+} */
 
 a{
     text-decoration: none;
@@ -181,7 +181,7 @@ main .row4 a{
 
 .row4a div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 60%;
     margin: 0 auto;
     color: #4191f4;
@@ -197,4 +197,137 @@ main .row4 a{
 
 .row4b div{
     color: #4191f4;
+    font-size: 1.5em;
+}
+
+/* /////////////row5//////////// */
+
+main .row5{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+}
+
+main .row5 a{
+    width: 48.5%;
+    height: 100%;
+    margin: 0 auto;
+    color:rgb(255, 255, 255);
+
+}
+
+.row5 h2{
+    font-size: 3em;
+    margin:0;
+    padding:1em 0 0 0
+}
+
+.row5 h3{
+    font-size: 2em;
+    font-weight: 500;
+    margin:0.5em 0;
+}
+
+
+#row5-red{
+    color:red;
+}
+
+.row5a{
+    height: 100%;
+    background-image:url(./Assets/Images/row5a.jpg) ;
+    background-size: cover;
+    background-position: 0px 120px;
+    color:rgb(255, 255, 255);
+}
+
+.row5a div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+    color: #4191f4;
+    font-size: 1.5em;
+}
+
+.row5b{
+    height: 100%;
+    background-image:url(./Assets/Images/row5b.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #0f120f;
+    color:rgb(255, 255, 255);
+}
+
+.row5b div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+    color: #4191f4;
+    font-size: 1.5em;
+}
+
+/* /////////////row6///////////// */
+
+main .row6{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+}
+
+main .row6 a{
+    width: 48.5%;
+    height: 100%;
+    margin: 0 auto;
+    color:black;
+
+}
+
+.row6 h2{
+    font-size: 3em;
+    margin:0;
+    padding:1em 0 0 0
+}
+
+.row6 h3{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin:0.5em 0;
+}
+
+.row6 h4{
+    color: #aaa9a9;
+    margin: 0;
+}
+
+.row6a{
+    height: 100%;
+    background-image:url(./Assets/Images/row6a.jpeg) ;
+    background-size: cover;
+    background-position: 0px 150px;
+    color:black;
+}
+
+.row6a div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+    color: #4191f4;
+    font-size: 1.5em;
+}
+
+.row6b{
+    height: 100%;
+    background-image:url(./Assets/Images/row6b.jpg) ;
+    background-size: cover;
+    background-position: -300px 50px;
+    color:black;
+}
+
+.row6b div{
+    color: #4191f4;
+    font-size: 1.5em;
 }
